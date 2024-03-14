@@ -42,7 +42,6 @@ ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
 //Keys for Locked Chests
 ItemDisplay[key CLVL<10]: %GRAY%Key
-ItemDisplay[key CLVL>90]:
 //Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
@@ -55,11 +54,11 @@ ItemDisplay[gps]:
 ItemDisplay[gpl]:
 //Arrows & Bolts
 ItemDisplay[aq2 MAG]:
-ItemDisplay[aq2 RARE CLVL>89]:
+ItemDisplay[aq2 RARE]: %NAME%
 ItemDisplay[aq2 RARE ILVL>60]: %NAME%
 //ItemDisplay[aq2 SET]: %NAME%
 ItemDisplay[cq2 MAG]:
-ItemDisplay[cq2 RARE CLVL>89]:
+ItemDisplay[cq2 RARE]: %NAME%
 ItemDisplay[cq2 RARE ILVL>60]: %NAME%
 //ItemDisplay[cq2 SET]: %NAME%
 
@@ -368,7 +367,7 @@ ItemDisplay[UNI !ETH !ID xts]: %NAME%
 
 //UNIQUE Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID rin]: %RED%***** %PURPLE%UNIQUE RING%RED%*****%NOTIFY(ITEM)%
-ItemDisplay[UNI !ID amu]: %RED%***** %PURPLE%UNQIUE AMULET%RED%*****%NOTIFY(ITEM)%
+ItemDisplay[UNI !ID amu]: %RED%***** %PURPLE%UNIQUE AMULET%RED%*****%NOTIFY(ITEM)%
 ItemDisplay[UNI !ID jew]: %RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%FACET%NOTIFY(ITEM)% %BLUE%*%GREEN%*%YELLOW%*%RED%*
 ItemDisplay[UNI !ID cm3]: Gheeds Charm %NOTIFY(ITEM)%
 ItemDisplay[SET !ID amu]: ***** Set Amulet ***** %NOTIFY(ITEM)%
@@ -1029,10 +1028,10 @@ ItemDisplay[6s7 SOCK=4 !SUP NMAG]: %DARK_GREEN%Diamond Bow%NOTIFY(ITEM)% %YELLOW
 ItemDisplay[6s7 SOCK=4 SUP NMAG]: %DARK_GREEN%Sup Diamond Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[6cb SOCK=4 SUP NMAG]: %DARK_GREEN%Sup Great Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[6cb SOCK=4 !SUP NMAG]: %DARK_GREEN%Great Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[am6 SOCK=4 SUP NMAG TABSK0 > 1]: %DARK_GREEN%Sup Ashwood Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[am6 SOCK=4 !SUP NMAG TABSK0 > 1]: %DARK_GREEN%Ashwood Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=4 SUP NMAG TABSK0 > 1]: %DARK_GREEN%Sup Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0 > 1]: %DARK_GREEN%Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
+ItemDisplay[am6 SOCK=4 SUP NMAG TABSK0>1]: %DARK_GREEN%Sup Ashwood Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
+ItemDisplay[am6 SOCK=4 !SUP NMAG TABSK0>1]: %DARK_GREEN%Ashwood Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=4 SUP NMAG TABSK0>1]: %DARK_GREEN%Sup Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0>1]: %DARK_GREEN%Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
