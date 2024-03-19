@@ -112,18 +112,18 @@ ItemDisplay[r16]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[16]
 ItemDisplay[r17]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[17]
 ItemDisplay[r18]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[18]
 ItemDisplay[r19]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[19]
-ItemDisplay[r20]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[20]
-ItemDisplay[r21]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[21]
-ItemDisplay[r22]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[22]
-ItemDisplay[r23]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[23]
-ItemDisplay[r24]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[24]
+ItemDisplay[r20]: %NOTIFY(ITEM)%%RED%* %PURPLE%%NAME% %RED%* %TAN%[20]
+ItemDisplay[r21]: %NOTIFY(ITEM)%%RED%** %PURPLE%%NAME% %RED%** %TAN%[21]
+ItemDisplay[r22]: %NOTIFY(ITEM)%%RED%*** %PURPLE%%NAME% %RED%** %TAN%[22]
+ItemDisplay[r23]: %NOTIFY(ITEM)%%RED%**** %PURPLE%%NAME% %RED%**** %TAN%[23]
+ItemDisplay[r24]: %NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24]
 ItemDisplay[r25]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25]
 ItemDisplay[r26]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[26]
 ItemDisplay[r27]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
-ItemDisplay[r28]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[28]
-ItemDisplay[r29]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[29]
-ItemDisplay[r30]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[30]
-ItemDisplay[r31]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[31]
+ItemDisplay[r28]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
+ItemDisplay[r29]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
+ItemDisplay[r30]: %NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
+ItemDisplay[r31]: %NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
 ItemDisplay[r32]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
 ItemDisplay[r33]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
 
@@ -532,7 +532,7 @@ ItemDisplay[RW]: %NAME%
 //Charms
 ItemDisplay[!UNI cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
 ItemDisplay[!UNI cm2 CLVL>86]:
-ItemDisplay[!UNI (cm1 OR cm3)]: %NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm3)]: %NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NAME%
 //ItemDisplay[MAG !ID cm2]:
 
@@ -1036,7 +1036,7 @@ ItemDisplay[amb SOCK=4 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOC
 ItemDisplay[amc SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow %GRAY%[%SOCKETS%]
+ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow%NOTIFY(ITEM)% %GRAY%[%SOCKETS%]
 ItemDisplay[amc SOCK=3 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=3 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow %GRAY%[%SOCKETS%]
 ItemDisplay[amb SOCK=0 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 Mbow %GRAY%[%SOCKETS%]
@@ -1631,6 +1631,7 @@ ItemDisplay[NMAG !RW ILVL>25 SOCK=3 9vo]:
 ItemDisplay[NMAG !RW ILVL>25 SOCK=5 9vo]:
 ItemDisplay[NMAG !RW ILVL>25 SOCK=6 9vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7vo]:
+ItemDisplay[NMAG !RW SOCK=0 9B7]:
 ItemDisplay[NMAG !RW SUP SOCK=0 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=3 7vo]:
@@ -1649,6 +1650,7 @@ ItemDisplay[NMAG !RW ILVL>25 SOCK=3 9s8]:
 ItemDisplay[NMAG !RW ILVL>25 SOCK=5 9s8]:
 ItemDisplay[NMAG !RW ILVL>25 SOCK=6 9s8]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=1 7s8]:
+ItemDisplay[NMAG !RW ILVL>14 SOCK=0 7s8]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=2 7s8]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=3 7s8]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7s8]:
@@ -1964,6 +1966,7 @@ ItemDisplay[NMAG ba4]:
 ItemDisplay[NMAG ba5]:
 ItemDisplay[NMAG bac]:
 ItemDisplay[NMAG ba6]:
+ItemDisplay[NMAG ba2]:
 ItemDisplay[MAG CL2 CLVL>89]:
 
 //Paladin Shields
