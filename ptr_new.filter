@@ -492,8 +492,6 @@ ItemDisplay[MAG zvb CLVL>89]:
 ItemDisplay[MAG umc]: %NAME%
 ItemDisplay[MAG zmb]:
 ItemDisplay[RARE zmb]:
-ItemDisplay[MAG umc ILVL>84]: 
-ItemDisplay[MAG zmb ILVL>84]: 
 
 //BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
@@ -550,6 +548,7 @@ ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 ucl]:
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uhn]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 urs]: %DARK_GREEN%ETH %NAME%%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 upl]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !RW upl]:
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 ult]: 
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uld]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uth]: 
@@ -726,7 +725,7 @@ ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<94]: %WHITE%%NAME%
 ItemDisplay[uit !ETH SOCK=0 NMAG CLVL>95]:
 
 //Magic Monarch
-ItemDisplay[uit !ETH MAG !ID]: %NAME% 
+ItemDisplay[uit MAG !ID]:
 ItemDisplay[uit MAG SOCK=4 FBR=30]: Get Rekt
 
 //Amazon Javelins 
@@ -1090,13 +1089,11 @@ ItemDisplay[72a ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 
 //non-magic wands 
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]: %DARK_GREEN%+3 Corpse Explosion wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3)]: %DARK_GREEN%+3 Bone Spear wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]: %DARK_GREEN%+3 Desecrate wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK92=3)]: %GRAY%+3 poison nova wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK67=3)]: %DARK_GREEN%+3 teeth wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK80=3)]: %GRAY%+3 skele mage wand%GRAY%[%SOCKETS%]
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK70=3)]: %GRAY%+3 skele war wand%GRAY%[%SOCKETS%]
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]: %DARK_GREEN%+3 Corpse Explosion Wand%GRAY%[%SOCKETS%]
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3)]: %DARK_GREEN%+3 Bone Spear Wand%GRAY%[%SOCKETS%]
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]: %DARK_GREEN%+3 Desecrate Wand%GRAY%[%SOCKETS%]
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK67=3)]: %DARK_GREEN%+3 Teeth Wand%GRAY%[%SOCKETS%]
+
 //hide at lvl 90
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3) CLVL>89]:
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3) CLVL>89]:
@@ -1107,15 +1104,10 @@ ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK80=3) CLVL>89]:
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK70=3) CLVL>89]:
 
 //non-magic necro heads 
-ItemDisplay[CL4 NMAG (SK74=3) !ETH !SOCK=1]: %DARK_GREEN%+3 Corpse Explosion head%GRAY%[%SOCKETS%]
-ItemDisplay[CL4 NMAG (SK80=3) !ETH !SOCK=1]: %GRAY%+3 skele mage head%GRAY%[%SOCKETS%]
-ItemDisplay[CL4 NMAG (SK70=3) !ETH !SOCK=1]: %GRAY%+3 skele head%GRAY%[%SOCKETS%]
-ItemDisplay[CL4 NMAG (SK69=3) !ETH !SOCK=1]: %GRAY%+3 mastery head%GRAY%[%SOCKETS%]
 ItemDisplay[CL4 NMAG (SK67=3) !ETH !SOCK=1]: %GRAY%+3 teeth head%GRAY%[%SOCKETS%]
 ItemDisplay[CL4 NMAG (SK83=3) !ETH !SOCK=1]: %GRAY%+3 desecrate head%GRAY%[%SOCKETS%]
 ItemDisplay[CL4 NMAG (SK84=3) !ETH !SOCK=1]: %GRAY%+3 bone spear head%GRAY%[%SOCKETS%]
-ItemDisplay[CL4 NMAG (SK92=3) !ETH !SOCK=1]: %GRAY%+3 poison nova head%GRAY%[%SOCKETS%]
-ItemDisplay[CL4 NMAG (SK74=2) !ETH !SOCK=1]: %GRAY%+2 Corpse Explosion head%GRAY%[%SOCKETS%]
+
 //hide at lvl 90
 ItemDisplay[CL4 NMAG (SK74=3) !ETH !SOCK=1 CLVL>89]:
 ItemDisplay[CL4 NMAG (SK80=3) !ETH !SOCK=1 CLVL>89]:
@@ -1504,6 +1496,7 @@ ItemDisplay[NMAG !RW ILVL>25 9cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=4 7cr]:
+ItemDisplay[RARE 7cr]:
 //
 ItemDisplay[NMAG !RW ILVL>25 9bs]:
 ItemDisplay[NMAG !RW ILVL>60 7bs]:
@@ -1525,6 +1518,7 @@ ItemDisplay[NMAG !RW ILVL>60 SOCK=4 72h]:
 ItemDisplay[NMAG !RW ILVL>14 clm]:
 ItemDisplay[NMAG !RW ILVL>25 9cm]:
 ItemDisplay[NMAG !RW ILVL>60 7cm]:
+ItemDisplay[RARE 7cm]:
 ItemDisplay[NMAG !RW ILVL>14 gis]:
 ItemDisplay[NMAG !RW ILVL>25 9gs]:
 ItemDisplay[NMAG !RW ILVL>60 7gs]:
@@ -1639,6 +1633,7 @@ ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7vo]:
 ItemDisplay[NMAG !RW SOCK=0 9B7]:
 ItemDisplay[NMAG !RW 9B7]:
 ItemDisplay[NMAG !RW 7o7]:
+ItemDisplay[RARE 7o7]:
 ItemDisplay[NMAG !RW SUP SOCK=0 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=3 7vo]:
@@ -2017,6 +2012,7 @@ ItemDisplay[NMAG !RW am9 ILVL>59]:
 ItemDisplay[NMAG !RW ama ILVL>59]:
 ItemDisplay[NMAG !RW amf ILVL>59]:
 ItemDisplay[NMAG !RW amd ILVL>59]:
+ItemDisplay[RARE amd]:
 ItemDisplay[NMAG !RW amb ILVL>59]:
 ItemDisplay[NMAG !RW ILVL>59 SOCK=1 amc]:
 ItemDisplay[NMAG !RW ILVL>59 SOCK=2 amc]:
