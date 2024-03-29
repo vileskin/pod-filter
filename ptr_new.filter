@@ -491,6 +491,7 @@ ItemDisplay[MAG zvb CLVL>89]:
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
 ItemDisplay[MAG umc]: %NAME%
 ItemDisplay[MAG zmb]:
+ItemDisplay[RARE zmb]:
 ItemDisplay[MAG umc ILVL>84]: 
 ItemDisplay[MAG zmb ILVL>84]: 
 
@@ -1372,6 +1373,7 @@ ItemDisplay[MAG ztb !ID ILVL>60]:
 ItemDisplay[MAG tbl !ID ILVL>60]:
 ItemDisplay[tbl]:
 ItemDisplay[MAG mbl !ID ILVL>60]:
+ItemDisplay[RARE mbl]:
 ItemDisplay[MAG vbl !ID ILVL>60]:
 ItemDisplay[MAG ulc !ID ILVL>60]:
 ItemDisplay[MAG zlb !ID ILVL>60]:
@@ -1497,6 +1499,7 @@ ItemDisplay[NMAG !RW ILVL>60 7sb]:
 ItemDisplay[NMAG !RW ILVL>14 flc]:
 ItemDisplay[NMAG !RW ILVL>25 9fc]:
 ItemDisplay[NMAG !RW ILVL>60 7fc]:
+ItemDisplay[RARE 7fc]:
 ItemDisplay[NMAG !RW ILVL>25 9cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7cr]:
@@ -1673,6 +1676,7 @@ ItemDisplay[NMAG !RW ILVL>14 SOCK=5 9pa]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=6 9pa]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=1 7pa]:
 ItemDisplay[NMAG !ETH SOCK=0 7pa]:
+ItemDisplay[RARE 7pa]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=2 7pa]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=3 7pa]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7pa]:
@@ -1690,6 +1694,7 @@ ItemDisplay[NMAG !RW ILVL>14 SOCK=3 9h9]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=5 9h9]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=6 9h9]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=1 7h7]:
+ItemDisplay[RARE 7h7]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=2 7h7]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=3 7h7]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7h7]:
@@ -1789,6 +1794,7 @@ ItemDisplay[NMAG !RW xlm]:
 ItemDisplay[RARE xlm]:
 ItemDisplay[NMAG !RW ulm]:
 ItemDisplay[NMAG !RW fhl]:
+ItemDisplay[RARE fhl]:
 ItemDisplay[NMAG !RW xhl]:
 ItemDisplay[NMAG !RW uhl]:
 ItemDisplay[NMAG !RW ghm]:
