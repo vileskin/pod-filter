@@ -1247,6 +1247,8 @@ ItemDisplay[RARE WP13 !ID CLVL>89]:
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
 ItemDisplay[RARE WP1 !ID ILVL>65]:
+ItemDisplay[7cm ETH SOCK=0]: %NAME% %YELLOW%[%SOCKETS%]%NOTIFY(ITEM)%
+ItemDisplay[7cm ETH SOCK=4]: %NAME% %YELLOW%[%SOCKETS%]%NOTIFY(ITEM)%
 ItemDisplay[RARE WP2 !ID ILVL>65]:
 ItemDisplay[RARE WP4 !ID ILVL>65]:
 ItemDisplay[RARE WP5 !ID ILVL>65]:
