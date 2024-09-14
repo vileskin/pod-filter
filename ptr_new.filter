@@ -162,6 +162,7 @@ ItemDisplay[ma10]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[ma12]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[ma13]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[maz]: %PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[cx9]: %PURPLE%Orb of Alteration%NOTIFY(ITEM)%
 
 //GEMS
 //Gems Chipped
