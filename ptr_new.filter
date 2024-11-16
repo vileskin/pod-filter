@@ -816,10 +816,10 @@ ItemDisplay[9lw NMAG SOCK=3 SK259>0]: %RED%FoF%GREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[9tw NMAG SOCK=3 SK259>0]: %RED%FoF%GREEN%%NAME% %RED%[%SOCKETS%]
 
 //Just claws
-ItemDisplay[CLW NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[BTL NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[9LW NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[9TW NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[clw NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[btl NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[9lw NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[9tw NMAG SOCK=3]: %RED%%GREEN%%NAME% %RED%[%SOCKETS%]
 
 //SPIRIT
 //4os Crystal Sword, Broad Sword, Larzuk Gaurantee = SPIRIT 
