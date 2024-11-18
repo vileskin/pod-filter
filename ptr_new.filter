@@ -1103,7 +1103,8 @@ ItemDisplay[7bs ETH NMAG SOCK=0]:
 ItemDisplay[7bs NMAG SOCK=3]: 
 ItemDisplay[7wd ETH NMAG SOCK=3]: 
 ItemDisplay[7wd ETH NMAG SOCK=0]: 
-ItemDisplay[7wd NMAG SOCK=3]: 
+ItemDisplay[7wd NMAG SOCK=3]:
+ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK=5 OR SOCK=4 )]:%GRAY%%NAME% %NL% %PURPLE%[PICK ME UP For GreenSteet ETH] %SOCKETS%
 
 
 //Oath
