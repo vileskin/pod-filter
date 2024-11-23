@@ -422,7 +422,7 @@ ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %RED%***** %PURPLE%FOH WEP%RED% *
 ItemDisplay[MAG WP13 (TABSK25=3 AND SK119=3)]: %RED%***** %PURPLE%SANC AURA WEP%RED% *****
 
 //Amulets
-ItemDisplay[MAG amu CLVL>89]:
+ItemDisplay[MAG amu !ID CLVL>89]:
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
 ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
