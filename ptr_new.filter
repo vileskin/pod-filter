@@ -114,7 +114,7 @@ ItemDisplay[r18]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[18]
 ItemDisplay[r19]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[19]
 ItemDisplay[r20]: %NOTIFY(ITEM)%%RED%* %PURPLE%%NAME% %RED%* %TAN%[20]
 ItemDisplay[r21]: %NOTIFY(ITEM)%%RED%** %PURPLE%%NAME% %RED%** %TAN%[21]
-ItemDisplay[r22]: %NOTIFY(ITEM)%%RED%*** %PURPLE%%NAME% %RED%** %TAN%[22]
+ItemDisplay[r22]: %NOTIFY(ITEM)%%RED%*** %PURPLE%%NAME% %RED%*** %TAN%[22]
 ItemDisplay[r23]: %NOTIFY(ITEM)%%RED%**** %PURPLE%%NAME% %RED%**** %TAN%[23]
 ItemDisplay[r24]: %NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24]
 ItemDisplay[r25]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25]
@@ -423,6 +423,7 @@ ItemDisplay[MAG WP13 (TABSK25=3 AND SK119=3)]: %RED%***** %PURPLE%SANC AURA WEP%
 
 //Amulets
 ItemDisplay[MAG amu !ID CLVL>89]:
+ItemDisplay[MAG amu ID]: %NAME%
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
 ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
