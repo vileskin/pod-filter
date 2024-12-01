@@ -1715,12 +1715,4 @@ ItemDisplay[NMAG SOCK=1]:
 ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[ETH SOCK=0]: ETH %NAME%
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[]: %NAME% [%CODE%]
-
-//FIX
-ItemDisplay[RARE !ID 7sb]:
-ItemDisplay[MAG !ID uhg]:
-ItemDisplay[NMAG dr6]:
-ItemDisplay[MAG !ID umc]:
-ItemDisplay[NMAG 7h7]:
-ItemDisplay[RARE !ID hbl]:
+ItemDisplay[]:
