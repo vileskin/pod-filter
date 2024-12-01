@@ -122,7 +122,7 @@ ItemDisplay[r26]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %
 ItemDisplay[r27]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
 ItemDisplay[r28]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
 ItemDisplay[r29]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
-ItemDisplay[r30]: %NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
+ItemDisplay[r30]: %MAPICON(27, 237)%%NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
 ItemDisplay[r31]: %NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
 ItemDisplay[r32]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
 ItemDisplay[r33]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
