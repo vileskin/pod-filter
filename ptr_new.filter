@@ -1053,28 +1053,23 @@ ItemDisplay[am6 SOCK=4 !SUP NMAG TABSK0>1]: %DARK_GREEN%Ashwood Bow%NOTIFY(ITEM)
 ItemDisplay[amb SOCK=4 SUP NMAG TABSK0>1]: %DARK_GREEN%Sup Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0>1]: %DARK_GREEN%Matriarchal Bow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
-ItemDisplay[amc SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=3 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow%NOTIFY(ITEM)% %GRAY%[%SOCKETS%]
-ItemDisplay[amc SOCK=3 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=3 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow %GRAY%[%SOCKETS%]
 ItemDisplay[amb SOCK=0 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 Mbow %GRAY%[%SOCKETS%]
 ItemDisplay[amc SOCK=0 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow%NOTIFY(ITEM)% %YELLOW%[%SOCKETS%]
 ItemDisplay[amc NMAG SOCK=4]: %GRAY%GMBow[%SOCKETS%]
 ItemDisplay[amc !SUP NMAG SOCK=0]: %GRAY%GMBow
 ItemDisplay[NMAG 6hx SOCK=4]:%GRAY%%NAME%[%SOCKETS%]
-ItemDisplay[6lb NMAG SOCK=4]:%GRAY%%NAME%[%SOCKETS%]
-ItemDisplay[6l7 NMAG SOCK=4]:%GRAY%%NAME%[%SOCKETS%]
-ItemDisplay[6l7 NMAG SOCK=0]:
-ItemDisplay[6cb NMAG SOCK=4]:%GRAY%%NAME%[%SOCKETS%]
-ItemDisplay[6s7 NMAG SOCK=4]: 
-ItemDisplay[6hb NMAG SOCK=4]:%GRAY%%NAME%[%SOCKETS%] 
-ItemDisplay[6lb NMAG SOCK=0]:%GRAY%%NAME%
-ItemDisplay[6l7 NMAG SOCK=0]:%GRAY%%NAME%
-ItemDisplay[6cb NMAG SOCK=0]: 
-ItemDisplay[6s7 NMAG SOCK=0]:  
-ItemDisplay[6hb NMAG SOCK=0]: 
+//Shadow Bow
+ItemDisplay[6lb NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
+//Crusader Bow
+ItemDisplay[6l7 NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
+//Great Bow
+ItemDisplay[6cb NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
+//Diamond Bow
+ItemDisplay[6s7 NMAG SOCK=4 CLVL<90]: 
+//Blade Bow
+ItemDisplay[6hb NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%] 
 
 //Last Wish
 //6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
