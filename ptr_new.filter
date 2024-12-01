@@ -848,7 +848,6 @@ ItemDisplay[NMAG ETH SOCK=3 7br]: %RED%* %PURPLE%ETH %NAME%%RED% *[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=4 7vo]: 
 ItemDisplay[NMAG !ETH SOCK=4 7s8]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=4 7pa]: 
-ItemDisplay[NMAG !ETH SOCK=4 7h7]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=4 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=4 7br]: %GREEN%%NAME%%YELLOW%[%SOCKETS%]
 //
@@ -1957,7 +1956,6 @@ ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7vo]:
 ItemDisplay[NMAG !RW SOCK=0 9B7]:
 ItemDisplay[NMAG !RW 9B7]:
 ItemDisplay[NMAG !RW 7o7]:
-ItemDisplay[NMAG !RW 7h7]:
 ItemDisplay[RARE 7o7]:
 ItemDisplay[NMAG !RW SUP SOCK=0 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7vo]:
