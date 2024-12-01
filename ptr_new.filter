@@ -558,108 +558,103 @@ ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 utp]: %DARK_GREEN%ETH %NAME% %YELLOW%[%S
 //Top Tier Dusk Shroud, Archon Plate
 ItemDisplay[uui !ETH NMAG SOCK=3 DEF>440]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[uui !ETH NMAG SOCK=4 DEF>440]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[uui !ETH NMAG SOCK=0 DEF>440]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[utp !ETH NMAG SOCK=3 DEF>500]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[utp !ETH NMAG SOCK=4 DEF>500]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[utp !ETH NMAG SOCK=0 DEF>500]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
-//Standard Dusk Shroud, Archon Plate
-//ItemDisplay[uui !ETH NMAG !SOCK=1]: %DARK_GREEN%%NAME%%NOTIFY(ITEM)% %GRAY%[%SOCKETS%]
-//ItemDisplay[utp !ETH NMAG !SOCK=1]: %DARK_GREEN%%NAME%%NOTIFY(ITEM)% %GRAY%[%SOCKETS%]
 
 //Any Elite Armor ETH
-ItemDisplay[uui ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uea ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ula ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[utu ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ung ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ucl ETH NMAG !SUP SOCK=0]: 
-ItemDisplay[uhn ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[urs ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[upl ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ult ETH NMAG !SUP SOCK=0]: 
-ItemDisplay[uld ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uth ETH NMAG !SUP SOCK=0]: 
-ItemDisplay[uul ETH NMAG !SUP SOCK=0]: 
-ItemDisplay[uar ETH NMAG !SUP SOCK=0]: 
-ItemDisplay[utp ETH NMAG !SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uui ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uea ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ula ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[utu ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ung ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ucl ETH NMAG SUP SOCK=0]: 
-ItemDisplay[uhn ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[urs ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[upl ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[ult ETH NMAG SUP SOCK=0]: 
-ItemDisplay[uld ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uth ETH NMAG SUP SOCK=0]: 
-ItemDisplay[uul ETH NMAG SUP SOCK=0]: 
-ItemDisplay[uar ETH NMAG SUP SOCK=0]: 
-ItemDisplay[utp ETH NMAG SUP SOCK=0]: ETH %NAME%
-ItemDisplay[uui ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[uea ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ula ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[utu ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ung ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ucl ETH NMAG SUP SOCK>1]: 
-ItemDisplay[uhn ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[urs ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[upl ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ult ETH NMAG SUP SOCK>1]: 
-ItemDisplay[uld ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[uth ETH NMAG SUP SOCK>1]: 
-ItemDisplay[uul ETH NMAG SUP SOCK>1]: 
-ItemDisplay[uar ETH NMAG SUP SOCK>1]:
-ItemDisplay[utp ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[uui ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[uea ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ula ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[utu ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ung ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ucl ETH NMAG !SUP SOCK>1]: 
-ItemDisplay[uhn ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[urs ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[upl ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[ult ETH NMAG !SUP SOCK>1]: 
-ItemDisplay[uld ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
-ItemDisplay[uth ETH NMAG !SUP SOCK>1]: 
-ItemDisplay[uul ETH NMAG !SUP SOCK>1]: 
-ItemDisplay[uar ETH NMAG !SUP SOCK>1]:
-ItemDisplay[utp ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uui ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uea ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ula ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[utu ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ung ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ucl ETH NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uhn ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[urs ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[upl ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ult ETH NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uld ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uth ETH NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uul ETH NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uar ETH NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[utp ETH NMAG !SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uui ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uea ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ula ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[utu ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ung ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ucl ETH NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uhn ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[urs ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[upl ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[ult ETH NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uld ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uth ETH NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uul ETH NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uar ETH NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[utp ETH NMAG SUP SOCK=0 CLVL<90]: ETH %NAME%
+ItemDisplay[uui ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uea ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ula ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utu ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ung ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ucl ETH NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uhn ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[urs ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[upl ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ult ETH NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uld ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uth ETH NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uul ETH NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uar ETH NMAG SUP SOCK>1 CLVL<90]:
+ItemDisplay[utp ETH NMAG SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uui ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uea ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ula ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utu ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ung ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ucl ETH NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uhn ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[urs ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[upl ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ult ETH NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uld ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uth ETH NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uul ETH NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uar ETH NMAG !SUP SOCK>1 CLVL<90]:
+ItemDisplay[utp ETH NMAG !SUP SOCK>1 CLVL<90]: ETH %NAME%[%SOCKETS%]
 //Elite Armor Non Eth
 ItemDisplay[uea !ETH NMAG SOCK=0 CLVL < 92]: %NAME%
-ItemDisplay[uea !ETH NMAG SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uui NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[uea NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[ula NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[utu NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[ung NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[ucl NMAG !SUP SOCK=0]: 
-ItemDisplay[uhn NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[urs NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[upl NMAG !SUP SOCK=0]: 
-ItemDisplay[ult NMAG !SUP SOCK=0]: 
-ItemDisplay[uld NMAG !SUP SOCK=0]: 
-ItemDisplay[uth NMAG !SUP SOCK=0]: 
-ItemDisplay[uul NMAG !SUP SOCK=0]: 
-ItemDisplay[uar NMAG !SUP SOCK=0]: 
-ItemDisplay[utp NMAG !SUP SOCK=0]: %NAME%
-ItemDisplay[uui NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[uea NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[ula NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[utu NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[ung NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[ucl NMAG SUP SOCK=0]: 
-ItemDisplay[uhn NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[urs NMAG SUP SOCK=0]: %NAME%
-ItemDisplay[upl NMAG SUP SOCK=0]: 
-ItemDisplay[ult NMAG SUP SOCK=0]: 
-ItemDisplay[uld NMAG SUP SOCK=0]: 
-ItemDisplay[uth NMAG SUP SOCK=0]: 
-ItemDisplay[uul NMAG SUP SOCK=0]: 
-ItemDisplay[uar NMAG SUP SOCK=0]:
-ItemDisplay[utp NMAG SUP SOCK=0]: %NAME%
+ItemDisplay[uea !ETH NMAG SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uui NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[uea NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ula NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[utu NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ung NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ucl NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uhn NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[urs NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[upl NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[ult NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uld NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uth NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uul NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uar NMAG !SUP SOCK=0 CLVL<90]: 
+ItemDisplay[utp NMAG !SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[uui NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[uea NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ula NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[utu NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ung NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[ucl NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uhn NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[urs NMAG SUP SOCK=0 CLVL<90]: %NAME%
+ItemDisplay[upl NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[ult NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uld NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uth NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uul NMAG SUP SOCK=0 CLVL<90]: 
+ItemDisplay[uar NMAG SUP SOCK=0 CLVL<90]:
+ItemDisplay[utp NMAG SUP SOCK=0 CLVL<90]: %NAME%
 //
 ItemDisplay[uui NMAG SOCK=1]: 
 ItemDisplay[uea NMAG SOCK=1]: 
@@ -677,45 +672,45 @@ ItemDisplay[uul NMAG SOCK=1]:
 ItemDisplay[uar NMAG SOCK=1]: 
 ItemDisplay[utp NMAG SOCK=1]: 
 //
-ItemDisplay[uui NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uea NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ula NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[utu NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ung NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ucl NMAG SUP SOCK>1]: 
-ItemDisplay[uhn NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[urs NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[upl NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ult NMAG SUP SOCK>1]: 
-ItemDisplay[uld NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uth NMAG SUP SOCK>1]: 
-ItemDisplay[uul NMAG SUP SOCK>1]: 
-ItemDisplay[uar NMAG SUP SOCK>1]: 
-ItemDisplay[utp NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uui NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uea NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ula NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[utu NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ung NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ucl NMAG !SUP SOCK>1]: 
-ItemDisplay[uhn NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[urs NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[upl NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[ult NMAG !SUP SOCK>1]: 
-ItemDisplay[uld NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
-ItemDisplay[uth NMAG !SUP SOCK>1]: 
-ItemDisplay[uul NMAG !SUP SOCK>1]: 
-ItemDisplay[uar NMAG !SUP SOCK>1]: 
-ItemDisplay[utp NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uui NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uea NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ula NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[utu NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ung NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ucl NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uhn NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[urs NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[upl NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ult NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uld NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uth NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uul NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uar NMAG SUP SOCK>1 CLVL<90]: 
+ItemDisplay[utp NMAG SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uui NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uea NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ula NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[utu NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ung NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ucl NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uhn NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[urs NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[upl NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[ult NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uld NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
+ItemDisplay[uth NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uul NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[uar NMAG !SUP SOCK>1 CLVL<90]: 
+ItemDisplay[utp NMAG !SUP SOCK>1 CLVL<90]: %NAME%[%SOCKETS%]
 
 //0soc 2soc 3soc Light Plate
-ItemDisplay[NMAG SOCK>1 ltp]:
-ItemDisplay[NMAG SOCK=0 ltp]: 
-ItemDisplay[NMAG SOCK=1 ltp]:
+ItemDisplay[NMAG SOCK>1 ltp CLVL<90]:
+ItemDisplay[NMAG SOCK=0 ltp CLVL<90]: 
+ItemDisplay[NMAG SOCK=1 ltp CLVL<90]:
 //0 soc 2soc 3soc Mage Plate 
-ItemDisplay[NMAG !ETH !SOCK=1 xtp]:%GRAY%%NAME%[%SOCKETS%]
-ItemDisplay[NMAG ETH !SOCK=1 xtp]:%GRAY%ETH %NAME%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=1 xtp]:
+ItemDisplay[NMAG !ETH !SOCK=1 xtp CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
+ItemDisplay[NMAG ETH !SOCK=1 xtp CLVL<90]:%GRAY%ETH %NAME%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=1 xtp CLVL<90]:
 
 //Shields
 //4os Monarch, Monarch
