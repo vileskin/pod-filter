@@ -1067,7 +1067,7 @@ ItemDisplay[6l7 NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
 //Great Bow
 ItemDisplay[6cb NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%]
 //Diamond Bow
-ItemDisplay[6s7 NMAG SOCK=4 CLVL<90]: 
+ItemDisplay[6s7 NMAG SOCK=4 CLVL>90]:
 //Blade Bow
 ItemDisplay[6hb NMAG SOCK=4 CLVL<90]:%GRAY%%NAME%[%SOCKETS%] 
 
