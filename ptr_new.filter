@@ -884,7 +884,7 @@ ItemDisplay[ETH 7pa NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[ETH 7h7 NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[ETH 7wc NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[ETH 7br NMAG !SUP SOCK=0]: %DARK_GREEN%ETH %NAME%%YELLOW%[%SOCKETS%]
-ItemDisplay[!ETH 7p7 NMAG !SUP SOCK=0]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[!ETH 7p7 NMAG !SUP SOCK=0]:
 ItemDisplay[!ETH 7p7 NMAG SUP SOCK=0]:
 //
 ItemDisplay[NMAG scy SOCK=4]:
@@ -910,7 +910,6 @@ ItemDisplay[NMAG ETH SOCK=6 7h7]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7wc]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 //
 ItemDisplay[NMAG !ETH SOCK=6 7h7]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG !ETH SOCK=6 7wc]: %NAME% %GRAY%[%SOCKETS%]
 //larzuk
 ItemDisplay[NMAG ETH SOCK=0 7h7]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=0 7wc]: ETH %NAME% %GRAY%[%SOCKETS%]
@@ -1096,7 +1095,6 @@ ItemDisplay[7bs NMAG SOCK=3]:
 ItemDisplay[7wd ETH NMAG SOCK=3]: 
 ItemDisplay[7wd ETH NMAG SOCK=0]: 
 ItemDisplay[7wd NMAG SOCK=3]:
-ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK=5 OR SOCK=4 )]:%GRAY%%NAME% %NL% %PURPLE%[PICK ME UP For GreenSteet ETH] %SOCKETS%
 
 
 //Oath
