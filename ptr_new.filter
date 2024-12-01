@@ -1957,6 +1957,7 @@ ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7vo]:
 ItemDisplay[NMAG !RW SOCK=0 9B7]:
 ItemDisplay[NMAG !RW 9B7]:
 ItemDisplay[NMAG !RW 7o7]:
+ItemDisplay[NMAG !RW 7h7]:
 ItemDisplay[RARE 7o7]:
 ItemDisplay[NMAG !RW SUP SOCK=0 7vo]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7vo]:
