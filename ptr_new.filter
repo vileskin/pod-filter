@@ -116,16 +116,16 @@ ItemDisplay[r20]: %NOTIFY(ITEM)%%RED%* %PURPLE%%NAME% %RED%* %TAN%[20]
 ItemDisplay[r21]: %NOTIFY(ITEM)%%RED%** %PURPLE%%NAME% %RED%** %TAN%[21]
 ItemDisplay[r22]: %NOTIFY(ITEM)%%RED%*** %PURPLE%%NAME% %RED%*** %TAN%[22]
 ItemDisplay[r23]: %NOTIFY(ITEM)%%RED%**** %PURPLE%%NAME% %RED%**** %TAN%[23]
-ItemDisplay[r24]: %NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24]
-ItemDisplay[r25]: %NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25]
-ItemDisplay[r26]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[26]
-ItemDisplay[r27]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
-ItemDisplay[r28]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
-ItemDisplay[r29]: %NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
+ItemDisplay[r24]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24]
+ItemDisplay[r25]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25]
+ItemDisplay[r26]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[26]
+ItemDisplay[r27]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
+ItemDisplay[r28]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
+ItemDisplay[r29]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
 ItemDisplay[r30]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
-ItemDisplay[r31]: %NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
-ItemDisplay[r32]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
-ItemDisplay[r33]: %NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
+ItemDisplay[r31]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
+ItemDisplay[r32]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
+ItemDisplay[r33]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
 
 // Essences
 ItemDisplay[bet]: %GOLD%%NAME%%NOTIFY(ITEM)% // Burning Essence of Terror
@@ -218,7 +218,7 @@ ItemDisplay[glg]: %ORANGE%Emerald%NOTIFY(ITEM)%
 ItemDisplay[glr]: %ORANGE%Ruby%NOTIFY(ITEM)%
 ItemDisplay[glb]: %ORANGE%Sapphire%NOTIFY(ITEM)%
 ItemDisplay[gly]: %ORANGE%Topaz%NOTIFY(ITEM)%
-ItemDisplay[skl]: %RED%Skull%NOTIFY(ITEM)%
+ItemDisplay[skl]: %MAPICON(24)%%RED%Skull%NOTIFY(ITEM)%
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P AMETHYST
 ItemDisplay[gpw]: %ORANGE%P DIAMOND
@@ -531,7 +531,7 @@ ItemDisplay[RW]: %NAME%
 //Charms
 ItemDisplay[!UNI cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
 ItemDisplay[!UNI cm2 CLVL>86]:
-ItemDisplay[!UNI (cm1 OR cm3)]: %NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm3)]: %MAPICON(21)%%NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NAME%
 //ItemDisplay[MAG !ID cm2]:
 
