@@ -523,16 +523,19 @@ ItemDisplay[MAG lbt ILVL>84]:
 //ItemDisplay[MAG ID cm1 MANA>13]:%PURPLE%Mana Small Charm%WHITE%[%ILVL%]
 
 //Rerolling
-ItemDisplay[MAG cm3 ILVL>90]: %NAME%%DOT-97% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm1 ILVL=47]: %NAME%%DOT-97% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG !ID cm3 ILVL>90]: %MAPICON(21)%%NAME%%ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm3 ILVL>90]: %NAME%%ORANGE%[L%ILVL%]
+
 
 //Runewords
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[!UNI cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm2 CLVL<87]: %MAPICON(21)%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[ID cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
 ItemDisplay[!UNI cm2 CLVL>86]:
 ItemDisplay[!UNI (cm1 OR cm3)]: %MAPICON(21)%%NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
+ItemDisplay[ID (cm1 OR cm3)]: %NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NAME%
 //ItemDisplay[MAG !ID cm2]:
 
