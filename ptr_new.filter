@@ -149,19 +149,20 @@ ItemDisplay[std]: %NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx5]: %MAPICON(3)%%PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone%NOTIFY(ITEM)%
 ItemDisplay[cx7]: %RED%*** %PURPLE%Key of Chaos%RED% ***%NOTIFY(ITEM)%
-ItemDisplay[ma1]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma2]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma3]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma4]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma5]: %PURPLE%%NAME% %NOTIFY(ITEM)%
-ItemDisplay[ma6]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma7]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma8]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma9]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma10]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma12]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma13]: %PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma14]: %PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma1]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma2]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma3]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma4]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma5]: %MAPICON(20)%%PURPLE%%NAME% %NOTIFY(ITEM)%
+ItemDisplay[ma6]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma7]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma8]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma9]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma10]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma11]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma12]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma13]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma14]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[maz]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx9]: %PURPLE%Orb of Alteration%NOTIFY(ITEM)%
 
