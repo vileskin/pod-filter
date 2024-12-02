@@ -146,7 +146,7 @@ ItemDisplay[mbr]: %PURPLE%Mephisto's Brain%NOTIFY(ITEM)%
 
 //PoD Items
 ItemDisplay[std]: %NAME%%NOTIFY(ITEM)%
-ItemDisplay[cx5]: %MAPICON(13)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[cx5]: %MAPICON(3)%%PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone%NOTIFY(ITEM)%
 ItemDisplay[cx7]: %RED%*** %PURPLE%Key of Chaos%RED% ***%NOTIFY(ITEM)%
 ItemDisplay[ma1]: %PURPLE%%NAME%%NOTIFY(ITEM)%
