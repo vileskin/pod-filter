@@ -531,11 +531,11 @@ ItemDisplay[MAG cm3 ILVL>90]: %NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[!UNI cm2 CLVL<87]: %MAPICON(21)%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[ID cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID cm2 CLVL<87]: %MAPICON(21)%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI ID cm2 CLVL<87]: %NAME%%GRAY%[%ILVL%]
 ItemDisplay[!UNI cm2 CLVL>86]:
-ItemDisplay[!UNI (cm1 OR cm3)]: %MAPICON(21)%%NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
-ItemDisplay[ID (cm1 OR cm3)]: %NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID (cm1 OR cm3)]: %MAPICON(21)%%NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
+ItemDisplay[!UNI ID (cm1 OR cm3)]: %NAME%%NOTIFY(ITEM)% %GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NAME%
 //ItemDisplay[MAG !ID cm2]:
 
