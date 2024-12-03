@@ -2082,4 +2082,5 @@ ItemDisplay[NMAG SOCK=1]:
 ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[ETH SOCK=0]: ETH %NAME%
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[RARE ID]: %NAME%
 ItemDisplay[]:
