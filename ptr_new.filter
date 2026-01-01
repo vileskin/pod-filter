@@ -128,9 +128,9 @@ ItemDisplay[r32]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED
 ItemDisplay[r33]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
 
 // Essences
-ItemDisplay[bet]: %GOLD%%NAME%%NOTIFY(ITEM)% // Burning Essence of Terror
-ItemDisplay[ceh]: %GOLD%%NAME%%NOTIFY(ITEM)% // Charged Essence of Hatred
-ItemDisplay[fed]: %GOLD%%NAME%%NOTIFY(ITEM)% // Festering Essence of Destruction
+ItemDisplay[bet]: %RED%%NAME%%NOTIFY(ITEM)% // Burning Essence of Terror
+ItemDisplay[ceh]: %RED%%NAME%%NOTIFY(ITEM)% // Charged Essence of Hatred
+ItemDisplay[fed]: %RED%%NAME%%NOTIFY(ITEM)% // Festering Essence of Destruction
 ItemDisplay[tes]: %RED%%NAME%%NOTIFY(ITEM)% // Twisted Essence of Suffering
 
 // Tokens
