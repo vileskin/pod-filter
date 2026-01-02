@@ -150,19 +150,28 @@ ItemDisplay[cx5]: %MAPICON(3)%%PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone%NOTIFY(ITEM)%
 ItemDisplay[cx7]: %RED%*** %PURPLE%Key of Chaos%RED% ***%NOTIFY(ITEM)%
 ItemDisplay[ma1]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma2]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma2]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Forgotten Desert
 ItemDisplay[ma3]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma4]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma5]: %MAPICON(20)%%PURPLE%%NAME% %NOTIFY(ITEM)%
-ItemDisplay[ma6]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma7]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma8]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma9]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma10]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma4]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Desecrated Temple
+ItemDisplay[ma5]: %MAPICON(20)%%PURPLE%%NAME% %NOTIFY(ITEM)% //Frigid Plateau
+ItemDisplay[ma6]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Ruined Citadel
+ItemDisplay[ma7]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Burnt Forest
+ItemDisplay[ma8]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Musty Crypt
+ItemDisplay[ma9]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Dim Cellar
+ItemDisplay[ma10]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Icy Cavern
 ItemDisplay[ma11]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma12]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma13]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
-ItemDisplay[ma14]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
+ItemDisplay[ma12]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Baleful Alcazar
+ItemDisplay[ma13]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Decaying Ziggurat
+ItemDisplay[ma14]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Abyssal Furnace
+ItemDisplay[ma15]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma16]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma17]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma18]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma19]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma20]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma21]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma22]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma23]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
 ItemDisplay[maz]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx9]: %PURPLE%Orb of Alteration%NOTIFY(ITEM)%
 
