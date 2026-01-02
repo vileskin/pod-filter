@@ -163,15 +163,15 @@ ItemDisplay[ma11]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[ma12]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Baleful Alcazar
 ItemDisplay[ma13]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Decaying Ziggurat
 ItemDisplay[ma14]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Abyssal Furnace
-ItemDisplay[ma15]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma16]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma17]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma18]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma19]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma20]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma21]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma22]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
-ItemDisplay[ma23]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //
+ItemDisplay[ma15]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Ravaged Town
+ItemDisplay[ma16]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Festering Tunnels
+ItemDisplay[ma17]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Agony Halls
+ItemDisplay[ma18]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Overgrown Ruin
+ItemDisplay[ma19]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Northern Wall
+ItemDisplay[ma20]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Grim Barracks
+ItemDisplay[ma21]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Whispering Cave
+ItemDisplay[ma22]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Hellfire Throne
+ItemDisplay[ma23]: %MAPICON(20)%%PURPLE%%NAME%%NOTIFY(ITEM)% //Underground Lake
 ItemDisplay[maz]: %PURPLE%%NAME%%NOTIFY(ITEM)%
 ItemDisplay[cx9]: %PURPLE%Orb of Alteration%NOTIFY(ITEM)%
 
