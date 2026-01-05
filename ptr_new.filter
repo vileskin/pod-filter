@@ -1,10 +1,10 @@
 ﻿//Soundfiles
-Sound[Sound1]: "filter\Sound1"
-Sound[Sound2]: "filter\Sound2"
-Sound[Sound3]: "filter\Sound3"
-Sound[Sound4]: "filter\Sound4"
-Sound[Sound5]: "filter\Sound5"
-Sound[Sound6]: "filter\Sound6.wav"
+Sound[Sound1]: "synpoo\Sound1"
+Sound[Sound2]: "synpoo\Sound2"
+Sound[Sound3]: "synpoo\Sound3"
+Sound[Sound4]: "synpoo\Sound4"
+Sound[Sound5]: "synpoo\Sound5"
+Sound[Sound6]: "synpoo\Sound6"
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>9999]: %NAME%
