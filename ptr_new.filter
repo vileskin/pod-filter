@@ -120,20 +120,20 @@ ItemDisplay[r16]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[16]
 ItemDisplay[r17]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[17]
 ItemDisplay[r18]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[18]
 ItemDisplay[r19]: %NOTIFY(ITEM)%%ORANGE%%NAME% %TAN%[19]
-ItemDisplay[r20]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%* %PURPLE%%NAME% %RED%* %TAN%[20] //Lem
-ItemDisplay[r21]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%** %PURPLE%%NAME% %RED%** %TAN%[21] //Pul
-ItemDisplay[r22]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%*** %PURPLE%%NAME% %RED%*** %TAN%[22] //Um
-ItemDisplay[r23]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%**** %PURPLE%%NAME% %RED%**** %TAN%[23] //Mal
-ItemDisplay[r24]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound1)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24] //Ist
-ItemDisplay[r25]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound1)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25] //Gul
-ItemDisplay[r26]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[26] //Vex
-ItemDisplay[r27]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27] //Ohm
-ItemDisplay[r28]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28] //Lo
-ItemDisplay[r29]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29] //Sur
-ItemDisplay[r30]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30] //Ber
-ItemDisplay[r31]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31] //Jah
-ItemDisplay[r32]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32] //Cham
-ItemDisplay[r33]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33] //Zod
+ItemDisplay[r20]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%* %PURPLE%%NAME% %RED%* %TAN%[20]
+ItemDisplay[r21]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%** %PURPLE%%NAME% %RED%** %TAN%[21]
+ItemDisplay[r22]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%*** %PURPLE%%NAME% %RED%*** %TAN%[22]
+ItemDisplay[r23]: %NOTIFY(ITEM)%%NOTIFYSOUND(Sound2)%%RED%**** %PURPLE%%NAME% %RED%**** %TAN%[23]
+ItemDisplay[r24]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound1)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[24]
+ItemDisplay[r25]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound1)%%RED%******* %PURPLE%%NAME% %RED%******* %TAN%[25]
+ItemDisplay[r26]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[26]
+ItemDisplay[r27]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
+ItemDisplay[r28]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
+ItemDisplay[r29]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
+ItemDisplay[r30]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
+ItemDisplay[r31]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
+ItemDisplay[r32]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
+ItemDisplay[r33]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
 
 // Essences
 ItemDisplay[bet]: %RED%%NAME%%NOTIFY(ITEM)% // Burning Essence of Terror
