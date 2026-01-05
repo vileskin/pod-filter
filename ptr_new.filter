@@ -4,7 +4,7 @@ Sound[Sound2]: "filter\Sound2"
 Sound[Sound3]: "filter\Sound3"
 Sound[Sound4]: "filter\Sound4"
 Sound[Sound5]: "filter\Sound5"
-Sound[Sound6]: "Sound6"
+Sound[Sound6]: "Sound6.wav"
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>9999]: %NAME%
