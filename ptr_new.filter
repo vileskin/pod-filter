@@ -1,4 +1,12 @@
-﻿//Hide Gold Piles Smaller Than (<) X
+﻿//Soundfiles
+Sound[Sound1]: "filter\Sound1"
+Sound[Sound2]: "filter\Sound2"
+Sound[Sound3]: "filter\Sound3"
+Sound[Sound4]: "filter\Sound4"
+Sound[Sound5]: "filter\Sound5"
+Sound[Sound6]: "filter\Sound6"
+
+//Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>9999]: %NAME%
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
@@ -122,7 +130,7 @@ ItemDisplay[r26]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED
 ItemDisplay[r27]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[27]
 ItemDisplay[r28]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[28]
 ItemDisplay[r29]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%*********** %PURPLE%%NAME% %RED%*********** %TAN%[29]
-ItemDisplay[r30]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
+ItemDisplay[r30]: %MAPICON(26)%%NOTIFY(ITEM)%%NOTIFYSOUND(Sound6)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[30]
 ItemDisplay[r31]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%************* %PURPLE%%NAME% %RED%************* %TAN%[31]
 ItemDisplay[r32]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[32]
 ItemDisplay[r33]: %MAPICON(26)%%NOTIFY(ITEM)%%RED%********** %PURPLE%%NAME% %RED%********** %TAN%[33]
