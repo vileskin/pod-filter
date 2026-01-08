@@ -507,7 +507,7 @@ ItemDisplay[MAG uvc CLVL>89]:
 ItemDisplay[MAG zvb CLVL>89]:
 
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc]: %NAME%
+ItemDisplay[MAG umc]:
 ItemDisplay[MAG zmb]:
 ItemDisplay[RARE zmb]:
 
